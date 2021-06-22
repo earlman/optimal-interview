@@ -1,0 +1,744 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+* {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+/**
+ * *
+ * * This stylesheet will contain HIGH-LEVEL global styles
+ *  * Rules:
+ *  * 1) styles MUST be applied directly to HTML tags
+ *  * 2) each style addition should be in a commented section
+ * *
+ * */
+/*----------  Remove Margin on Body and Headings ----------*/
+body, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/*---------- Use border-box on all elements ------------*/
+* {
+  box-sizing: border-box;
+}
+
+/*---------- img max-width 100% on all images ------------*/
+img {
+  max-width: 100%;
+}
+
+/*---------- remove list styles on lists ------------*/
+nav * {
+  list-style: none;
+}
+
+:root {
+  /*============================================== */
+  /*=              Neutral Colors                = */
+  /*=============================================*/
+  --color-N000: #FFFFFF;
+  --color-N010: #FAFBFC;
+  --color-N020: #F4F5F7;
+  --color-N030: #EBECF0;
+  --color-N040: #DFE1E6;
+  --color-N050: #C1C7D0;
+  --color-N060: #B3BAC5;
+  --color-N070: #A5ADBA;
+  --color-N080: #97A0AF;
+  --color-N090: #8993A4;
+  --color-N100: #7A869A;
+  --color-N200: #6B778C;
+  --color-N300: #5E6C84;
+  --color-N400: #505F79;
+  --color-N500: #42526E;
+  --color-N600: #344563;
+  --color-N700: #253858;
+  --color-N800: #172B4D;
+  --color-N900: #091E42;
+  /*============================================== */
+  /*=              Feature Colors                = */
+  /*=============================================*/
+  /*----------  Reds  ----------*/
+  --color-R050: #FFEBE6;
+  --color-R075: #FFBDAD;
+  --color-R100: #FF8F73;
+  --color-R200: #FF7452;
+  --color-R300: #FF5630;
+  --color-R400: #DE350B;
+  --color-R500: #BF2600;
+  /*----------  Yellows  ----------*/
+  --color-Y050: #FFFAE6;
+  --color-Y075: #FFF0B3;
+  --color-Y100: #FFE380;
+  --color-Y200: #FFC400;
+  --color-Y300: #FFAB00;
+  --color-Y400: #FF991F;
+  --color-Y500: #FF8B00;
+  /*----------  Greens  ----------*/
+  --color-G050: #E3FCEF;
+  --color-G075: #ABF5D1;
+  --color-G100: #79F2C0;
+  --color-G200: #57D9A3;
+  --color-G300: #36B37E;
+  --color-G400: #00875A;
+  --color-G500: #006644;
+  /*----------  Torquoises  ----------*/
+  --color-T050: #E6FCFF;
+  --color-T075: #B3F5FF;
+  --color-T100: #79E2F2;
+  --color-T200: #00C7E6;
+  --color-T300: #00B8D9;
+  --color-T400: #00A3BF;
+  --color-T500: #008DA6;
+  /*----------  Blues  ----------*/
+  --color-B050: #DEEBFF;
+  --color-B075: #B3D4FF;
+  --color-B100: #4C9AFF;
+  --color-B200: #2684FF;
+  --color-B300: #0065FF;
+  --color-B400: #0052CC;
+  --color-B500: #0747A6;
+  /*----------  Purples  ----------*/
+  --color-P050: #EAE6FF;
+  --color-P075: #C0B6F2;
+  --color-P100: #998DD9;
+  --color-P200: #8777D9;
+  --color-P300: #6554C0;
+  --color-P400: #5243AA;
+  --color-P500: #403294;
+}
+
+:root {
+  /*=============================================*/
+  /*=         Default Color Variables           =*/
+  /*=============================================*/
+  --color-t: #0A162B;
+  --color-t-h: #45323E;
+  --color-t-c: #975942;
+  --color-b: #FFFFFF;
+  --color-b-alt: #F3FBFF;
+  --color-p: rgb(98, 82, 90);
+  --color-g: linear-gradient(0deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #FFC327;
+  --color-p-l: rgba(98, 82, 90, .8);
+}
+
+/*============================================= */
+/*=              Define Variables             = */
+/*=============================================*/    
+/* NOTE: SASS variables are used in this file to allow variable use within the media query selectors */
+/*=================================================== */
+/*=      Create Mixin to @include Media Query       = */
+/*=================================================*/        
+/*----------  Import Media Queries to set Responsive Font Sizes  ----------*/
+:root {
+  /*============================================*/
+  /*             Set Type Scale Variables       */
+  /*============================================*/  
+  /*----------  Set Base Font Sizes  ----------*/
+  --d-base-font-size: 18px;
+  --m-base-font-size: 16px;
+  /*----------  Set Type Scale Multipliers  ----------*/
+  --d-multiplier: 1.333;
+  --m-multiplier: 1.250;
+  /*============================================= */
+  /*               Type Scale                   = */
+  /*============================================*/
+  /*----------  Desktop Scale  ----------*/
+  /* 0.563rem, 10.13px */ 
+  --d-xs: calc(var(--d-base-font-size) / (var(--d-multiplier) * var(--d-multiplier)));
+  /* 0.750rem, 13.50px */
+  --d-sm: calc(var(--d-base-font-size) / var(--d-multiplier));
+  /* 1.000rem, 18.00px */
+  --d-md: calc(var(--d-base-font-size));
+  /* 1.333rem, 23.99px */
+  --d-lg: calc(var(--d-base-font-size) * var(--d-multiplier));
+  /* 1.777rem, 31.98px */
+  --d-xl: calc(var(--d-base-font-size) * var(--d-multiplier) * var(--d-multiplier));
+  /* 2.369rem, 42.63px */
+  --d-2xl: calc(var(--d-base-font-size) * var(--d-multiplier) * var(--d-multiplier) * var(--d-multiplier));
+  /* 3.157rem, 56.83px */
+  --d-3xl: calc(var(--d-base-font-size) * var(--d-multiplier) * var(--d-multiplier) * var(--d-multiplier) * var(--d-multiplier));
+  /* 4.209rem, 75.76px */
+  --d-4xl: calc(var(--d-base-font-size) * var(--d-multiplier) * var(--d-multiplier) * var(--d-multiplier) * var(--d-multiplier) * var(--d-multiplier));
+  /*----------  Mobile Scale  ----------*/
+  /* 0.640rem, 10.24px */
+  --m-xs: calc(var(--m-base-font-size) / (var(--m-multiplier) * var(--m-multiplier)));
+  /* 0.800rem, 12.80px */
+  --m-sm: calc(var(--m-base-font-size) / var(--m-multiplier));
+  /* 1.000rem, 16.00px */
+  --m-md: calc(var(--m-base-font-size));
+  /* 1.250rem, 20.00px */
+  --m-lg: calc(var(--m-base-font-size) * var(--m-multiplier));
+  /* 1.563rem, 25.00px */
+  --m-xl: calc(var(--m-base-font-size) * var(--m-multiplier) * var(--m-multiplier));
+  /* 1.953rem, 31.25px */
+  --m-2xl: calc(var(--m-base-font-size) * var(--m-multiplier) * var(--m-multiplier) * var(--m-multiplier));
+  /* 2.441rem, 39.06px */
+  --m-3xl: calc(var(--m-base-font-size) * var(--m-multiplier) * var(--m-multiplier) * var(--m-multiplier) * var(--m-multiplier));
+  /* 3.052rem, 48.83px */
+  --m-4xl: calc(var(--m-base-font-size) * var(--m-multiplier) * var(--m-multiplier) * var(--m-multiplier) * var(--m-multiplier));
+}
+
+/*----------  Set font-size on html (responsively)  ----------*/
+html {
+  font-size: var(--m-base-font-size);
+}
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: var(--d-base-font-size);
+  }
+}
+
+/*========================================================== */
+/*=       Create Mixins to include Responsive Sizes        = */
+/*=========================================================*/
+:root {
+  /*=============================================*/
+  /*=            Spacing Variables              =*/
+  /*=============================================*/
+  --space-unit: 1rem;
+  --space-3xs: calc(var(--space-unit) / 3);
+  --space-2xs: calc(2 * var(--space-unit) / 3);
+  --space-xs: var(--space-unit);
+  --space-sm: calc(var(--space-2xs) + var(--space-xs));
+  --space-md: calc(var(--space-xs) + var(--space-sm));
+  --space-lg: calc(var(--space-sm) + var(--space-md));
+  --space-xl: calc(var(--space-md) + var(--space-lg));
+  --space-2xl: calc(var(--space-lg) + var(--space-xl));
+  --space-3xl: calc(var(--space-xl) + var(--space-2xl));
+}
+
+/* https://github.com/CodyHouse/codyhouse-framework */
+:root {
+  --font-primary: "Cabin", sans;
+}
+
+* {
+  font-family: var(--font-primary);
+  color: var(--color-t);
+  font-weight: 400;
+}
+
+html {
+  line-height: 1.2;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.caption {
+  font-size: var(--m-sm);
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 992px) {
+  .caption {
+    font-size: var(--d-sm);
+  }
+}
+
+hr {
+  border-top: var(--color-p) solid 2px;
+}
+
+/*=============================================*/
+/*=              Define Variables             =*/
+/*=============================================*/
+/*=============================================*/
+/*=                  Imports                  =*/
+/*=============================================*/
+:root {
+  --layout-max-width: 900px;
+  --layout-width: 88vw;
+}
+
+div {
+  border-radius: 2px;
+}
+
+/*===============================================*/
+/*=              1) Import Modules              =*/
+/*===============================================*/
+/*===============================================*/
+/*=           2) Components                     =*/
+/*===============================================*/
+button {
+  background: var(--color-g);
+  border-radius: 30px;
+  border: 0;
+  padding-top: var(--space-xs);
+  padding-bottom: var(--space-xs);
+}
+
+select {
+  border: 2px solid #D0D0D0;
+  border-radius: 5px;
+  padding: var(--space-2xs) var(--space-xs);
+  background-color: white;
+}
+
+.banner {
+  width: 168px;
+}
+
+.icon {
+  width: 50px;
+}
+
+/*===============================================*/
+/*=           3) General Styles                =*/
+/*===============================================*/
+body .container, body hr {
+  margin-left: var(--space-sm);
+  margin-right: var(--space-sm);
+}
+@media only screen and (min-width: 768px) {
+  body .container, body hr {
+    margin-left: var(--space-md);
+    margin-right: var(--space-md);
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  place-items: center;
+  padding: var(--space-sm);
+}
+header > * {
+  margin-bottom: var(--space-xs);
+}
+header > *:last-child {
+  margin-bottom: 0;
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  place-content: center;
+}
+header ul li {
+  text-align: center;
+  padding: var(--space-2xs);
+  max-width: 100px;
+}
+@media only screen and (min-width: 768px) {
+  header ul li {
+    max-width: unset;
+  }
+}
+
+.search {
+  padding: var(--space-sm);
+}
+.search form {
+  display: flex;
+  flex-wrap: wrap;
+  place-items: center;
+  place-content: center;
+}
+.search form > * {
+  margin: var(--space-2xs);
+  min-width: 300px;
+}
+.search form .title {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+@media only screen and (min-width: 992px) {
+  .search form .title {
+    width: unset;
+    place-items: flex-start;
+  }
+}
+
+.skills {
+  background-color: var(--color-b-alt);
+  margin-top: var(--space-xs);
+  padding-top: var(--space-xs);
+  padding-bottom: var(--space-xs);
+}
+.skills h3 {
+  text-align: center;
+  margin-bottom: var(--space-xs);
+  width: 100%;
+}
+.skills--items {
+  display: grid;
+  grid-auto-flow: columns;
+  grid-gap: var(--space-xs);
+}
+@media only screen and (min-width: 768px) {
+  .skills--items {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+    margin: auto;
+    place-content: center;
+  }
+}
+.skills--item {
+  background-color: var(--color-b);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  padding: var(--space-xs);
+}
+
+/*# sourceMappingURL=styles.css.map */

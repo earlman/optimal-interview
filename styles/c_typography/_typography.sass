@@ -1,0 +1,44 @@
+@use 'text-sizes' as *
+@use '../d_spacing/_space-sizes' as *
+
+@import "../node_modules/@fontsource/cabin/400.css"
+@import "../node_modules/@fontsource/cabin/700.css"
+@import "../node_modules/@fontsource/open-sans/700.css"
+
+\:root
+    --font-primary: 'Cabin', sans
+
+*
+    font-family: var(--font-primary)
+    color: var(--color-t)
+    font-weight: 400
+
+html
+    line-height: 1.2
+
+b, strong
+    font-weight: bold
+
+h1, h2, h3, h4, h5, h6
+    font-weight: 700
+
+h3
+    text-transform: uppercase
+
+h4
+    // text-transform: uppercase
+
+a
+    text-decoration: underline
+    font-weight: 700
+
+button
+    text-transform: uppercase
+    font-weight: 700
+
+.caption
+    @include text(sm)
+    text-transform: uppercase
+
+hr
+    border-top: var(--color-p) solid 2px

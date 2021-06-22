@@ -1,0 +1,127 @@
+/*===============================================*/
+/*=              1) Import Modules              =*/
+/*===============================================*/
+
+@use "a_utility" as *
+@use "b_color" as *
+@use "c_typography" as *
+@use "d_spacing" as *
+@use "e_layout" as *
+
+/*===============================================*/
+/*=           2) Components                     =*/
+/*===============================================*/
+button
+   background: var(--color-g)
+   border-radius: 30px
+   border: 0
+   padding-top: var(--space-xs)
+   padding-bottom: var(--space-xs)
+
+select
+   border: 2px solid #D0D0D0
+   border-radius: 5px
+   padding: var(--space-2xs) var(--space-xs)
+   background-color: white
+
+.banner
+   width: 168px
+
+.icon
+   width: 50px
+
+/*===============================================*/
+/*=           3) General Styles                =*/
+/*===============================================*/
+body
+   // background-color: var(--color-b-alt)
+   // display: grid
+   // place-content: center
+   // margin: auto
+   // width: 100vw
+   .container, hr
+      margin-left: var(--space-sm)
+      margin-right: var(--space-sm)
+      @include md
+         margin-left: var(--space-md)
+         margin-right: var(--space-md)
+
+header
+   display: flex
+   flex-direction: column
+   place-content: center
+   place-items: center
+   padding: var(--space-sm)
+
+   &>*
+      @include space-stack(var(--space-xs))
+
+   ul
+      list-style-type: none
+      display: flex
+      flex-wrap: wrap
+      padding: 0
+      place-content: center
+
+      li
+         text-align: center
+         padding: var(--space-2xs)
+         max-width: 100px
+
+         @include md
+            max-width: unset
+
+.search
+   padding: var(--space-sm)
+
+   form
+      display: flex
+      flex-wrap: wrap
+      place-items: center
+      place-content: center
+
+      & > *
+         margin: var(--space-2xs)
+         min-width: 300px
+
+      .title
+         width: 100%
+         display: grid
+         place-items: center
+
+         @include lg
+            width: unset
+            place-items: flex-start
+
+.skills
+   background-color: var(--color-b-alt)
+   margin-top: var(--space-xs)
+   padding-top: var(--space-xs)
+   padding-bottom: var(--space-xs)
+
+   h3
+      text-align: center
+      margin-bottom: var(--space-xs)
+      width: 100%
+
+   &--items
+      display: grid
+      grid-auto-flow: columns
+      grid-gap: var(--space-xs)
+
+      @include md
+         grid-template-rows: 1fr 1fr
+         grid-template-columns: 1fr 1fr
+         max-width: 800px
+         margin: auto
+         place-content: center
+
+   &--item
+      background-color: var(--color-b)
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05)
+      text-align: center
+      border-radius: 10px
+      display: grid
+      place-items: center
+      // max-width: 330px
+      padding: var(--space-xs)

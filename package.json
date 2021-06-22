@@ -1,0 +1,30 @@
+{
+  "name": "html-css-earl-mangulabnan",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html",
+    "build:sass": "npx sass styles/index.sass assets/stylesheets/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foundations-design/html-css-assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foundations-design/html-css-assessment/issues"
+  },
+  "homepage": "https://github.com/foundations-design/html-css-assessment#readme",
+  "dependencies": {
+    "@fontsource/cabin": "^4.3.0",
+    "@fontsource/open-sans": "^4.3.0",
+    "sass": "^1.35.1",
+    "@parcel/transformer-sass": "^2.0.0-beta.3.1",
+    "parcel": "^2.0.0-beta.3.1"
+  },
+  "devDependencies": {
+  },
+  "keywords": []
+}

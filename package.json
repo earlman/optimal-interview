@@ -20,10 +20,10 @@
   "dependencies": {
     "@fontsource/cabin": "^4.3.0",
     "@fontsource/open-sans": "^4.3.0",
-    "sass": "^1.35.1",
-    "@parcel/transformer-sass": "^2.0.0-beta.3.1"
+    "node-sass": "^6.0.0"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.3.1",
     "parcel": "^2.0.0-beta.3.1"
   },
   "keywords": []
